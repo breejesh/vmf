@@ -1,0 +1,114 @@
+Proccess List (Without Linkedlist)
+----------------------------------
+
+3 0 88 0 0 0 0 0 (Decimal)
+03 00 58 00 00 00 00 00 (Hex)
+
+This pattern indicates EPROCESS Signature
+
+Steps:
+1. Start scanning memory
+2. Compare with magic number
+3. If it matches, extract data. Else, skip 8 bytes
+4. Stop at eof
+
+
+Services List (Without Linkedlist)
+----------------------------------
+Steps:
+1. Locate services.exe EPROCESS
+2. Find DTB for services.exe
+3. Search for "serH" to get service header
+4. Service header points to service record
+5. Convert Virtual Address to Physical Address using DTB
+
+services.exe EPROCESSES: 7e193360
+    DTB: 00 e0 aa 0b (0baae000)    
+
+
+Pointer to service record (struct) (reverse address)
+90 26 94 00 - Hit AudioSrv
+80 47 94 00 - Hit AudioEndpointBuilder
+80 50 94 00 - Hit CscService
+70 51 94 00 - Hit DComLaunch
+e0 75 94 00
+b0 ac 94 00
+c0 cd 94 00
+a0 cf 94 00
+d0 da 94 00
+40 e5 94 00
+00 e9 94 00
+
+20 06 95 00
+60 11 95 00
+50 23 95 00
+60 27 95 00 - Hit sppsvc
+20 2b 95 00 - Hit SSDPSRV
+00 3c 95 00 - Hit TermService
+d0 3e 95 00 - 
+70 b4 95 00
+
+
+00 00 8b 4b
+00 00 ff 15
+00 00 84 c0
+00 0f 85 21
+00 0f 85 da
+
+00 00 ff 15
+01 00 ff 15
+02 00 00 00
+
+97 00 00 48
+fb 00 00 0f
+c9 89 74 24
+
+Address Translation
+----------------------------------------------------
+
+Idle DTB: 00 70 18 00 00 00 00 00 (Same as CR3)
+(00187000)
+
+CR3      - 0x00187000 - 0b00000000000110000111000000000000
+                
+                 PML4      Diret.Ptr Directory Offset
+1111111111111111 111110101 000000000 011010101 110010011001101100000
+
+Virtual  - 0x1ab93360 - 0b00011010101 110010011001101100000
+
+Physical - 0x7e193360 - 0b01111110000 110010011001101100000
+
+
+CR3        = 0b00000000000110000111 000000000000
+PML4 Addr  = 0b00000000000110000111 111110101000 = 0x00187FA8 
+PML4 Cont  = 0b00000100000000000000 100001100011 = 0x04000863
+PDPTE Addr = 0b00000100000000000000 000000000000 = 0x04000000
+PDPTE Cont = 0b00000100000000000001 100001100011 = 0x04001863
+PDE Addr   = 0b00000100000000000001 011010101000 = 0x040016A8 
+PDE Cont   = 0b01111110000000000000 100111100011 = 0x7e0009e3
+
+Physical Address = 0b01111110000110010011001101100000
+
+CR3 = 0x00187000
+PML4 = 0x1f5*8 + 0x00187000 = 0x00187FA8 which had 0x04000863
+DPE  = 0x000*8 + 0x04000000 = 0x04000000 which had 0x04001863
+DE   = 0x0D5*8 + 0x04001000 = 0x040016A8 which had 0x7e0009e3
+
+services.exe EPROCESSES: 7e193360
+
+                 PML4      Diret.Ptr Directory Table     Offset
+                 000000000 000000000 000000100 101000010 011010010000
+
+AudioSrv VA = 0b00000000100101000010011010010000  = 0x00942690  
+CR3         = 0b00001011101010101110 000000000000 = 0x0baae000 
+PML4 Addr   = 0b00001011101010101110 000000000000 = 0x0baae000
+PML4 Cont   = 0b00001011110010111011 100001100111 = 0x0bcbb867
+PDPTE Addr  = 0b00001011110010111011 000000000000 = 0x0bcbb000 
+PDPTE Cont  = 0b00001100001100000011 100001100111 = 0x0c303867
+PDE Addr    = 0b00001100001100000011 000000100000 = 0x0c303020
+PDE Cont    = 0b00001001110100010011 100001100111 = 0x09d13867
+Table Addr  = 0b00001001110100010011 101000010000 = 0x09D13A10
+Table Cont  = 0b00001001001111011111 100001100111 = 0x093df867
+
+Physical    = 0b00001001001111011111 011010010000 = 0x093df690
+
