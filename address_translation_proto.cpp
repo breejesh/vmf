@@ -83,17 +83,26 @@ int main()
     uint32_t dtb = 0x00187000;
     uint8_t level = 3;
     */
-    uint64_t vir_addr = 0x00942760;
+    /*uint64_t vir_addr = 0x00942760;
     uint32_t dtb = 0x0baae000;
     uint8_t level = 4;
+    */
 
+    uint64_t vir_addr = 0xf8a000019c20;
+    uint32_t dtb = 0x00187000;
+    int level;
+    if((vir_addr&0b1000000000000000000000000000) == 0) //untested
+         level = 4;
+    else level = 3; 
+
+    cout<<"Lvl: "<<level<<endl;
 	ifile.open(fname, ios::in | ios::binary);
     if(!ifile)
 	{
 		cout<<"Error in opening file..!!";
 		exit(0);
 	}	
-	cout<<"File opened.."<<endl;
+	cout<<"File opened.. "<<fname<<" "<<endl;
     phy_addr = get_phy_addr(ifile, vir_addr, dtb, level);
     cout<<endl<<"Virtual Address: 0x"<<hex<<vir_addr<<endl<<"Physical Address: 0x"<<phy_addr<<endl;
     return 0;
