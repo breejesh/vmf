@@ -88,7 +88,7 @@ int main()
     uint8_t level = 4;
     */
 
-    uint64_t vir_addr = 0xf8a000019c20;
+    uint64_t vir_addr = 0xfa8018df0dc8;
     uint32_t dtb = 0x00187000;
     int level;
     if((vir_addr&0b1000000000000000000000000000) == 0) //untested

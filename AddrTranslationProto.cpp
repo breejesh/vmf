@@ -68,23 +68,20 @@ uint64_t translateAddr(char* file_path, uint64_t vir_addr, uint32_t dtb)
          level = 4;
     else level = 3; 
 
-    cout<<"Lvl: "<<level<<endl;
     ifile.open(file_path, ios::in | ios::binary);
     if(!ifile)
     {
         cout<<"Error in opening file..!!";
         exit(0);
     }
-    cout<<"File opened.. "<<file_path<<" "<<endl;
     phy_addr = get_phy_addr(ifile, vir_addr, dtb, level);
-    cout<<endl<<"Virtual Address: 0x"<<hex<<vir_addr<<endl<<"Physical Address: 0x"<<phy_addr<<endl;
     return phy_addr;
 }
 
 #ifndef mainfunc
 int main()
 {
-    cout<<"\nPhysical Address: "<<translateAddr("data/win764.vmem", 0xfa8019c05330, 0x00187000)<<endl;
+    cout<<"\nPhysical Address: "<<hex<<translateAddr("data/win764.vmem", 0xfffffa8019ec5fe0, 0x00187000)<<endl;
     return 0;
 }
 #endif
