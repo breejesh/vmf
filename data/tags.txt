@@ -61,6 +61,7 @@ fa801afdba98	lvl3
 *************************
 Pool Tag: MmLd
 0x00 _POOL_HEADER
+0x60 vir ptr to file path	uint64
 0x68 size of name 		uint16
-0x70 virtual ptr to name	uint64 (ptr64)
+0x70 vir ptr to name		uint64 (ptr64)
 *************************

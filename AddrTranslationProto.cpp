@@ -10,6 +10,9 @@ using namespace std;
 
 uint64_t get_phy_addr(ifstream &ifile, uint64_t vir_addr, uint32_t dtb, uint8_t level)
 {
+    ifile.clear();
+    ifile.seekg(0, ios::beg);
+    
     uint64_t phy_addr;
     uint32_t temp1;
     uint32_t temp2;
@@ -74,6 +77,19 @@ uint64_t translateAddr(char* file_path, uint64_t vir_addr, uint32_t dtb)
         cout<<"Error in opening file..!!";
         exit(0);
     }
+    phy_addr = get_phy_addr(ifile, vir_addr, dtb, level);
+    return phy_addr;
+}
+
+uint64_t translateAddr(ifstream &ifile, uint64_t vir_addr, uint32_t dtb)
+{
+    uint64_t phy_addr;
+
+    int level;
+    if((vir_addr&0b1000000000000000000000000000) == 0) //untested
+         level = 4;
+    else level = 3; 
+
     phy_addr = get_phy_addr(ifile, vir_addr, dtb, level);
     return phy_addr;
 }

@@ -88,13 +88,13 @@ int main()
     uint8_t level = 4;
     */
 
-    uint64_t vir_addr = 0xfa8018df0dc8;
+    uint64_t vir_addr = 0xf8a00ba16b80;
     uint32_t dtb = 0x00187000;
     int level;
     if((vir_addr&0b1000000000000000000000000000) == 0) //untested
          level = 4;
-    else level = 3; 
-
+    else level = 3;
+    
     cout<<"Lvl: "<<level<<endl;
 	ifile.open(fname, ios::in | ios::binary);
     if(!ifile)
