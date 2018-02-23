@@ -5,6 +5,7 @@
 
 *.exe
 *.vmem
+*.dll
 data/*.vmem
 # User-specific files
 *.suo
