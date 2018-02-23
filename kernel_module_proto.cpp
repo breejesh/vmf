@@ -177,7 +177,7 @@ int main()
 	{
 		curr_module = curr_module->next;
 
-		phy_file_addr = translateAddr(ifile, curr_module->vir_file_addr, 0x00187000);
+		//phy_file_addr = translateAddr(ifile, curr_module->vir_file_addr, 0x00187000);
 
 		ifile.clear();
 		ifile.seekg(curr_module->name_addr, ios::beg);
@@ -188,14 +188,13 @@ int main()
 
 		curr_module->name = getUnicodeStr(name, sizeof(name));
 
-		get_utf_string(ifile, file_path, phy_file_addr);
+		//get_utf_string(ifile, file_path, phy_file_addr);
 
 		cout<<setw(10)<<hex<<curr_module->address;
 		cout<<setw(8)<<hex<<curr_module->block_size;
 		cout<<setw(8)<<hex<<curr_module->name_size;
-		cout<<setw(18)<<hex<<phy_file_addr;
+		cout<<setw(18)<<hex<<curr_module->vir_file_addr;
 		cout<<setw(20)<<curr_module->name;
-		cout<<"   "<<file_path;
 		cout<<endl;
 	}
 

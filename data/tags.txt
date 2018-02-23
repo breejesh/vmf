@@ -33,7 +33,6 @@ Physical: 2b689d50
 
 
 7e3d39b0 framebuf.dll
-0x38
 0x60
 0x70
 0xb8

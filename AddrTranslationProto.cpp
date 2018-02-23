@@ -97,7 +97,7 @@ uint64_t translateAddr(ifstream &ifile, uint64_t vir_addr, uint32_t dtb)
 #ifndef mainfunc
 int main()
 {
-    cout<<"\nPhysical Address: "<<hex<<translateAddr("data/win764.vmem", 0xfffffa8019ec5fe0, 0x00187000)<<endl;
+    cout<<"\nPhysical Address: "<<hex<<translateAddr("data/win764.vmem", 0xfffffa801afdba98, 0x00187000)<<endl;
     return 0;
 }
 #endif
