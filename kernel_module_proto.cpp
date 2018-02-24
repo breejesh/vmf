@@ -18,6 +18,7 @@ struct kernel_module
 	uint64_t block_size;
 	uint16_t name_size;
 	uint64_t name_addr;
+	uint64_t vir_name_addr;
 	uint64_t vir_file_addr;
 	char *name;
 	char *file_path;
@@ -146,6 +147,7 @@ int main()
 
 			ifile.read(reinterpret_cast<char *>(&name_addr), sizeof(name_addr));	//0x70 ptr64 to name
 			addr_val += 8;
+			curr_module->vir_name_addr = name_addr;
 			phy_name_addr = (addr_val & 0xfffffffffffff000) | (name_addr & 0x0fff);
 			
 			curr_module->name_addr = phy_name_addr;
@@ -179,14 +181,14 @@ int main()
 
 		//phy_file_addr = translateAddr(ifile, curr_module->vir_file_addr, 0x00187000);
 
-		ifile.clear();
-		ifile.seekg(curr_module->name_addr, ios::beg);
+		//ifile.clear();
+		//ifile.seekg(curr_module->name_addr, ios::beg);
 
-		char name[curr_module->name_size * 2];
+		//char name[curr_module->name_size * 2];
 
-		ifile.read(name, sizeof(name));
+		//ifile.read(name, sizeof(name));
 
-		curr_module->name = getUnicodeStr(name, sizeof(name));
+		//curr_module->name = getUnicodeStr(name, sizeof(name));
 
 		//get_utf_string(ifile, file_path, phy_file_addr);
 
@@ -194,7 +196,7 @@ int main()
 		cout<<setw(8)<<hex<<curr_module->block_size;
 		cout<<setw(8)<<hex<<curr_module->name_size;
 		cout<<setw(18)<<hex<<curr_module->vir_file_addr;
-		cout<<setw(20)<<curr_module->name;
+		cout<<setw(20)<<curr_module->vir_name_addr;
 		cout<<endl;
 	}
 

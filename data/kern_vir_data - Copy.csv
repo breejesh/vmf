@@ -1,181 +1,0 @@
-Virtual,Physical (3),Physical (4),Virtual (bin)
-fffff8a00022b220,2d22b220,2c99d220,0b000000000000000000000000001000101011001000100000,,\SystemRoot\system32\DRIVERS\monitor.sys
-fffff8a0002349f0,2d2349f0,2cd669f0,0b000000000000000000000000001000110100100111110000,,\SystemRoot\System32\TSDDD.dll
-fffff8a000234a40,2d234a40,2cd66a40,0b000000000000000000000000001000110100101001000000,,\SystemRoot\system32\DRIVERS\lltdio.sys
-fffff8a0002d5d50,2d2d5d50,2b689d50,0b000000000000000000000000001011010101110101010000,\9Œ,\SystemRoot\system32\DRIVERS\mrxsmb20.sys
-fffff8a000072e90,3072e90,2d5c4e90,0b000000000000000000000000000001110010111010010000,@$,\SystemRoot\system32\DRIVERS\rspndr.sys
-fffff8a000ed3450,27cd3450,27550450,0b000000000000000000000000111011010011010001010000,öÉ$Ê’z$ÊKVÓöÉ$Ê ,\SystemRoot\system32\drivers\HTTP.sys
-fffff8a00022b290,2d22b290,2c99d290,0b000000000000000000000000001000101011001010010000,,\SystemRoot\system32\drivers\luafv.sys
-fffff8a000eea150,27cea150,27316150,0b000000000000000000000000111011101010000101010000,59-11D0-8C47-00C04FC295EE},\SystemRoot\System32\Drivers\fastfat.SYS
-fffff8a0002b5c40,2d2b5c40,2b016c40,0b000000000000000000000000001010110101110001000000,H=,\SystemRoot\System32\drivers\dxg.sys
-fffff8a006eb5710,6c8b5710,489ee710,0b000000000000000000000110111010110101011100010000,
-,\SystemRoot\system32\DRIVERS\asyncmac.sys
-fffff8a000eeefa0,27ceefa0,2725bfa0,0b000000000000000000000000111011101110111110100000,7100+7¢€,\SystemRoot\system32\drivers\portcls.sys
-fffff8a000234330,2d234330,2cd66330,0b000000000000000000000000001000110100001100110000,HPX`hpx€ˆ¸ÀÈĞàèğø,\SystemRoot\system32\drivers\HdAudio.sys
-fffff8a0001afb40,31afb40,2d45ab40,0b000000000000000000000000000110101111101101000000,¶HDXÇ$,\SystemRoot\system32\drivers\ksthunk.sys
-fffff8a00022b0c0,2d22b0c0,2c99d0c0,0b000000000000000000000000001000101011000011000000,,\SystemRoot\System32\Drivers\crashdmp.sys
-fffff8a0002418c0,2d2418c0,2ca578c0,0b000000000000000000000000001001000001100011000000,³swÎŞyãv‚ ¤Âˆ±È½WzVÎ£¬••ÀŞ"j²¥çå´“tŠšxù)‹*v\˜òñZ™Ş’?ã£×£ğßÏúü1ñP`ˆk=€áw‡6ƒçJ€å‹X‡ïëÂKO,\SystemRoot\System32\Drivers\dump_LSI_SAS.sys
-fffff8a000234930,2d234930,2cd66930,0b000000000000000000000000001000110100100100110000,,\SystemRoot\System32\Drivers\dump_dumpfve.sys
-fffff8a00022b2f0,2d22b2f0,2c99d2f0,0b000000000000000000000000001000101011001011110000,4,\SystemRoot\System32\framebuf.dll
-fffff8a000ee6220,27ce6220,27392220,0b000000000000000000000000111011100110001000100000,åöZ^üÓ\‰36±trÕè™ØgÙ 8Ö#‰·ßfäïBQ}
-%Ş›Vƒ~+3^Æ¸.NqF>CÌHÅzH‰=¢v—éæ—’âğgwPSáqìÇ1Õ%Œ÷8½ÇÍ&İ,\SystemRoot\System32\drivers\Dxapi.sys
-fffff8a0001cb8a0,31cb8a0,2b6558a0,0b000000000000000000000000000111001011100010100000,è,\SystemRoot\System32\win32k.sys
-fffff8a000ecb860,27ccb860,275ea860,0b000000000000000000000000111011001011100001100000,>>!	6°V¸VU‘p¦0063907BAF1AC75349675169E1B1E7FF5FF6FA9DB,\SystemRoot\System32\Drivers\NDProxy.SYS
-fffff8a000ed39e0,27cd39e0,275509e0,0b000000000000000000000000111011010011100111100000,,\SystemRoot\system32\drivers\drmk.sys
-fffff8a000ef23b0,27cf23b0,2719f3b0,0b000000000000000000000000111011110010001110110000,Ypñ,\SystemRoot\System32\drivers\tcpipreg.sys
-fffff8a000ee6dd0,27ce6dd0,27392dd0,0b000000000000000000000000111011100110110111010000,,\SystemRoot\System32\DRIVERS\srv.sys
-fffff8a0002ab220,2d2ab220,2b683220,0b000000000000000000000000001010101011001000100000,ALÈ;ÀF¶cLÊƒ,\SystemRoot\system32\DRIVERS\cdrom.sys
-fffff8a000296b20,2d296b20,2b739b20,0b000000000000000000000000001010010110101100100000,otWnosRbo rmwr<dsrpin <eednyotoa=ys>
-  dpnetseby   <sebydniytp=wn2 ae"irsf.idw.omnCnrl"vrin"..."pbiKyoe=69b44cfd"
-    agae""poesrrhtcue""/  <dpnetseby <dpnec>
- dpnec>
-  dpnetseby   <sebydniy
-    ye"i3"
-    ae"irsf.idw.dPu"
-    eso=1160.68"
-    rcsoAc,\SystemRoot\System32\drivers\vga.sys
-fffff8a0001f0a90,31f0a90,2d416a90,0b000000000000000000000000000111110000101010010000,!'â<°ÏHñÊšõÃ?šèãjı—Ñ±í q„"Úãku!y–C‡ILXpˆr:ê±*:ÛÜ -äØ.Z,ßà´ƒöù¥üÜ°„Ã4§²¯Ak‰	àªdÆÉŠßÁûaŒí=àczÿ	ˆ%ãtş¯NôrcªÔ´c±!'â<°ÏHñÊšõÃ?šèãjı—Ñ±í e@?
-?ˆ¸!y–C‡ILXpˆr:ê±*:ÛÜ -äØ.Z,ßà´ƒöù¥üÜ°„Ã4§²¯Ak‰	àªdÆÉŠßÁûaŒí=àczÿ	ˆ%ãtş¯NôrcªÔ´c±!'â<°ÏHñÊšõÃ?šè,\SystemRoot\System32\drivers\watchdog.sys
-fffff8a000296ab0,2d296ab0,2b739ab0,0b000000000000000000000000001010010110101010110000,Acietr=ad4  tp=wn2 
-  ae"Iibn 
-  eso=1000 > 
- dsrpinMcootWnosRbo rmwr<dsrpin <eednyotoa=ys>
-  dpnetseby   <sebydniytp=wn2 ae"irsf.idw.omnCnrl"vrin"..."pbiKyoe=69b44cfd"
-    agae""poesrrhtcue""/  <dpnetseby <dpnec>
- dpnec>
-  dpnetseby   <sebydniy
-   ,\SystemRoot\System32\drivers\VIDEOPRT.SYS
-fffff8a0001cb110,31cb110,2b655110,0b000000000000000000000000000111001011000100010000,$H2,\SystemRoot\System32\Drivers\Beep.SYS
-fffff8a0002ab6a0,2d2ab6a0,2b6836a0,0b000000000000000000000000001010101011011010100000,‹è+ÿºÌH,\SystemRoot\system32\drivers\rdpencdd.sys
-fffff8a000296a50,2d296a50,2b739a50,0b000000000000000000000000001010010110101001010000,yxls"r:cea-irsf-o:s.1 aieteso=10>
- asmlIett rcsoAcietr=ad4  tp=wn2 
-  ae"Iibn 
-  eso=1000 > 
- dsrpinMcootWnosRbo rmwr<dsrpin <eednyotoa=ys>
-  dpnetseby   <sebydniytp=wn2 ae"irsf.idw.omnCnrl"vrin"..."pbiKyoe=69b44cfd"
-    agae""poesrrhtcue""/  <dpnetse,\SystemRoot\System32\DRIVERS\RDPCDD.sys
-fffff8a0002ab340,2d2ab340,2b683340,0b000000000000000000000000001010101011001101000000,,\SystemRoot\System32\Drivers\Msfs.SYS
-fffff8a0001f0b30,31f0b30,2d416b30,0b000000000000000000000000000111110000101100110000,k‰	àªdÆÉŠßÁûaŒí=àczÿ	ˆ%ãtş¯NôrcªÔ´c±!'â<°ÏHñÊšõÃ?šèãjı—Ñ±í e@?
-?ˆ¸!y–C‡ILXpˆr:ê±*:ÛÜ -äØ.Z,ßà´ƒöù¥üÜ°„Ã4§²¯Ak‰	àªdÆÉŠßÁûaŒí=àczÿ	ˆ%ãtş¯NôrcªÔ´c±!'â<°ÏHñÊšõÃ?šèãjı—Ñ±í "XÖÚ¹ù­á#¬äƒU.);
-p+q;ü¹q *hä`œº,\SystemRoot\system32\drivers\rdprefmp.sys
-fffff8a000239a80,2d239a80,2cdffa80,0b000000000000000000000000001000111001101010000000,€,\SystemRoot\System32\Drivers\Npfs.SYS
-fffff8a0001f0e50,31f0e50,2d416e50,0b000000000000000000000000000111110000111001010000,JİOä=IÓà`Şš›=?:ö{Õ¶5Ÿ·
-Ûp­#¬äƒU.);
-p+q;ü¹q *hä`œº,\SystemRoot\system32\DRIVERS\tdx.sys
-fffff8a0001f0df0,31f0df0,2d416df0,0b000000000000000000000000000111110000110111110000,Ùã±ì‡*i.r·¤	AG%rãc¥{ÏŠeã²°|CĞğ?çòÔ"ìÕ€×&’CJİOä=IÓà`Şš›=?:ö{Õ¶5Ÿ·
-Ûp­#¬äƒU.);
-p+q;ü¹q *hä`œº,\SystemRoot\system32\DRIVERS\TDI.SYS
-fffff8a0001f0d20,31f0d20,2d416d20,0b000000000000000000000000000111110000110100100000,%rãc¥{ÏŠeã²°|CĞğ?çòÔ"ìÕ€×&’CJİOä=IÓà`Şš›=?:ö{Õ¶5¡ß;>ÚÁ³#¬äƒU.);
-p+q;ü¹q *hä`œº,\SystemRoot\system32\drivers\afd.sys
-fffff8a0001f0c50,31f0c50,2d416c50,0b000000000000000000000000000111110000110001010000,%ãtş¯NôrcªÔ´c±!'â<°ÏHñÊšõÃ?šèãjı—Ñ±í "XÖÚ¹ù­á#¬äƒU.);
-p+q;ü¹q *hä`œº,\SystemRoot\System32\DRIVERS\netbt.sys
-fffff8a000296c60,2d296c60,2b739c60,0b000000000000000000000000001010010110110001100000,c>
- dpnec>
-  dpnetseby   <sebydniy
-    ye"i3"
-    ae"irsf.idw.dPu"
-    eso=1160.68"
-    rcsoAcietr=*    pbiKyoe=69b44cfd"
-    agae""
-   >
-  /eednAsml>
- /eedny <ienm=URbo"  <oCas
-    ecito=UTpMngr    csd"3652-7E4b-C8FF0BA3}    traigoe=Aatet    /  <,\SystemRoot\system32\DRIVERS\wanarp.sys
-fffff8a000296e00,2d296e00,2b739e00,0b000000000000000000000000001010010110111000000000,3652-7E4b-C8FF0BA3}    traigoe=Aatet    /  <oCas
-    ecito=UDansi"
-    li={680982-68BA-75B1EE"
-    hednMdl"prmn"
-    >
-  cmls    dsrpin"idw ibnFaeok    csd"964f-6548-85c36fb5}    traigoe=Aatet/  <oCas
-    ecito=WnosRbo mg rmBta atr"
-    li={F4465B-,\SystemRoot\system32\DRIVERS\netbios.sys
-fffff8a000296ee0,2d296ee0,2b739ee0,0b000000000000000000000000001010010110111011100000,mn"
-    >
-  cmls    dsrpin"idw ibnFaeok    csd"964f-6548-85c36fb5}    traigoe=Aatet/  <oCas
-    ecito=WnosRbo mg rmBta atr"
-    li={F4465B-2,\SystemRoot\system32\DRIVERS\pacer.sys
-fffff8a000296680,2d296680,2b739680,0b000000000000000000000000001010010110011010000000,,\SystemRoot\system32\DRIVERS\rdbss.sys
-fffff8a0002964c0,2d2964c0,2b7394c0,0b000000000000000000000000001010010110010011000000,	,\SystemRoot\system32\DRIVERS\mssmbios.sys
-fffff8a000296750,2d296750,2b739750,0b000000000000000000000000001010010110011101010000,,\SystemRoot\system32\DRIVERS\termdd.sys
-fffff8a000296d30,2d296d30,2b739d30,0b000000000000000000000000001010010110110100110000,  pbiKyoe=69b44cfd"
-    agae""
-   >
-  /eednAsml>
- /eedny <ienm=URbo"  <oCas
-    ecito=UTpMngr    csd"3652-7E4b-C8FF0BA3}    traigoe=Aatet    /  <oCas
-    ecito=UDansi"
-    li={680982-68BA-75B1EE"
-    hednMdl"prmn"
-    >
-  cmls    dsrpin"idw ibnFaeo,\SystemRoot\system32\DRIVERS\serial.sys
-fffff8a0002abe70,2d2abe70,2b683e70,0b000000000000000000000000001010101011111001110000, ‹‰$HFHD0‹‰$HFHD@$HÏN,\SystemRoot\System32\Drivers\dfsc.sys
-fffff8a000ee6ea0,27ce6ea0,27392ea0,0b000000000000000000000000111011100110111010100000,nŸÉRs6‹k•›ŞMÿ–%È¬î31È4yÕ¾2@ÀNMÛä¿?dB5ıE$MÖt—htoK°ã6 üÀùa0q
-°À•(ãäw Iˆ×~­-EÄ*ì[Îˆâı•(Ûß3ÙE#U1`A}.—$”‰Kú[Ñ,\SystemRoot\System32\DRIVERS\srv2.sys
-fffff8a0002965a0,2d2965a0,2b7395a0,0b000000000000000000000000001010010110010110100000,,\SystemRoot\system32\drivers\nsiproxy.sys
-fffff8a0002abf40,2d2abf40,2b683f40,0b000000000000000000000000001010101011111101000000,CHÀ„,\SystemRoot\system32\drivers\csc.sys
-fffff8a0002963e0,2d2963e0,2b7393e0,0b000000000000000000000000001010010110001111100000,,\SystemRoot\System32\drivers\discache.sys
-fffff8a0002abd90,2d2abd90,2b683d90,0b000000000000000000000000001010101011110110010000,µ,\SystemRoot\system32\DRIVERS\blbdrive.sys
-fffff8a0002abcc0,2d2abcc0,2b683cc0,0b000000000000000000000000001010101011110011000000,H‹ÿH,\SystemRoot\system32\DRIVERS\tunnel.sys
-fffff8a0002a0a90,2d2a0a90,2b73da90,0b000000000000000000000000001010100000101010010000,,\SystemRoot\system32\DRIVERS\i8042prt.sys
-fffff8a0002d54c0,2d2d54c0,2b6894c0,0b000000000000000000000000001011010101010011000000,D,\SystemRoot\system32\DRIVERS\HDAudBus.sys
-fffff8a0002a0490,2d2a0490,2b73d490,0b000000000000000000000000001010100000010010010000,,\SystemRoot\system32\DRIVERS\E1G6032E.sys
-fffff8a0002a09b0,2d2a09b0,2b73d9b0,0b000000000000000000000000001010100000100110110000,´´ôü´´ddÜÜ,\SystemRoot\system32\DRIVERS\kbdclass.sys
-fffff8a0002a08d0,2d2a08d0,2b73d8d0,0b000000000000000000000000001010100000100011010000,,\SystemRoot\system32\DRIVERS\mouclass.sys
-fffff8a0002a07f0,2d2a07f0,2b73d7f0,0b000000000000000000000000001010100000011111110000,,\SystemRoot\system32\DRIVERS\serenum.sys
-fffff8a0002a0410,2d2a0410,2b73d410,0b000000000000000000000000001010100000010000010000,UI,\SystemRoot\system32\DRIVERS\vgapnp.sys
-fffff8a0002ab9e0,2d2ab9e0,2b6839e0,0b000000000000000000000000001010101011100111100000,$HLHö3HL(‹HL(,\SystemRoot\system32\DRIVERS\fdc.sys
-fffff8a0002d52d0,2d2d52d0,2b6892d0,0b000000000000000000000000001011010101001011010000,:.D,\SystemRoot\system32\DRIVERS\usbuhci.sys
-fffff8a000223ca0,2d223ca0,2b695ca0,0b000000000000000000000000001000100011110010100000,031) akrud="hmal(ebp02A6-,71,,,irr(erm.l),rb0000) odrhcns  rc(,,,) otn  teebe',r) otnain="ideetr otae="alt"fnsz  1"fnwih  nra"wdh="7 egt="6 aoto  rgt agn="et3000"totp="re >i oswti=tu"<utnbcgon  teebersm(x7,6-,71,,,irr(erm.l),rb0000) >/f i efcsd"re>bto otn,\SystemRoot\system32\DRIVERS\USBPORT.SYS
-fffff8a0002d5010,2d2d5010,2b689010,0b000000000000000000000000001011010101000000010000,\90,\SystemRoot\system32\DRIVERS\CmBatt.sys
-fffff8a000223e10,2d223e10,2b695e10,0b000000000000000000000000001000100011111000010000,utnbcgon  teebersm(x7,6-,71,,,irr(erm.l),rb0000) >/f i efcsd"re>bto otnain="ideetr|fcset >/f i rse=tu"mueoue=tu"<utnbcgon  teebersm(x7,6-,71,,,irr(erm.l),rb0000) pdig="hmal(et0000,et22-,2) >/f i iil=fle>bto aoto  nn" >/f /f 
-i d"tmqikik"<utnaceato I@HÈ'‹È,\SystemRoot\system32\DRIVERS\usbehci.sys
-fffff8a0001f0940,31f0940,2d416940,0b000000000000000000000000000111110000100101000000,„Ã4§²¯Ak‰	àªdÆÉŠßÁûaŒí=àczÿ	ˆ%ãtş¯NôrcªÔ´c±!'â<°ÏHñÊšõÃ?šèãjı—Ñ±í Qã73>¬h!y–C‡ILXpˆr:ê±*:ÛÜ -äØ.Z,ßà´ƒöù¥üÜ°„Ã4§²¯Ak‰	àªdÆÉŠßÁûaŒí=àczÿ	ˆ%ãtş¯NôrcªÔ´c±!'â<°ÏHñÊšõÃ?šèãjı—Ñ±í q„"Úãku!y–C‡ILXpˆr:ê±*:ÛÜ -äØ.Z,ßà´ƒöù¥üÜ°„Ã4§²¯Ak‰	àªdÆ,\SystemRoot\system32\DRIVERS\raspptp.sys
-fffff8a0002a0100,2d2a0100,2b73d100,0b000000000000000000000000001010100000000100000000,,\SystemRoot\system32\DRIVERS\rdpbus.sys
-fffff8a000ecf230,27ccf230,2766e230,0b000000000000000000000000111011001111001000110000,E	^ĞB¢¦“×ÜS†åF'†Uû0‡Y~—è—øSREŸ,\SystemRoot\system32\DRIVERS\rassstp.sys
-fffff8a000ecb350,27ccb350,275ea350,0b000000000000000000000000111011001011001101010000,<Obsolete>>>!	œÏ732&6JŠ0+710,\SystemRoot\system32\DRIVERS\ks.sys
-fffff8a0002aba70,2d2aba70,2b683a70,0b000000000000000000000000001010101011101001110000,SHìÙ·3ÿ,\SystemRoot\system32\DRIVERS\swenum.sys
-fffff8a000ecb250,27ccb250,275ea250,0b000000000000000000000000111011001011001001010000,ëœBşï;J70+710,\SystemRoot\system32\DRIVERS\umbus.sys
-fffff8a0002962d0,2d2962d0,2b7392d0,0b000000000000000000000000001010010110001011010000,,\SystemRoot\system32\DRIVERS\USBD.SYS
-fffff8a0001cbe30,31cbe30,2b655e30,0b000000000000000000000000000111001011111000110000,‰$,\SystemRoot\system32\DRIVERS\udfs.sys
-fffff8a000072d20,3072d20,2d5c4d20,0b000000000000000000000000000001110010110100100000,H;",\SystemRoot\system32\DRIVERS\BthEnum.sys
-fffff8a00024e480,2d24e480,2d463480,0b000000000000000000000000001001001110010010000000,System,\SystemRoot\system32\DRIVERS\rfcomm.sys
-fffff8a00022eac0,2d22eac0,2c816ac0,0b000000000000000000000000001000101110101011000000,,\SystemRoot\system32\DRIVERS\usbccgp.sys
-fffff8a0002348c0,2d2348c0,2cd668c0,0b000000000000000000000000001000110100100011000000,,\SystemRoot\System32\Drivers\bthport.sys
-fffff8a000296340,2d296340,2b739340,0b000000000000000000000000001010010110001101000000,	,\SystemRoot\system32\DRIVERS\HIDPARSE.SYS
-fffff8a000eeab60,27ceab60,27316b60,0b000000000000000000000000111011101010101101100000,Ì]¼b
-‚TRL{DE351A42-8E59-11D0-8C47-00C04FC295EE},\SystemRoot\system32\DRIVERS\HIDCLASS.SYS
-fffff8a0001af2f0,31af2f0,2d45a2f0,0b000000000000000000000000000110101111001011110000,D(,\SystemRoot\system32\DRIVERS\mouhid.sys
-fffff8a000ecbbe0,27ccbbe0,275eabe0,0b000000000000000000000000111011001011101111100000,“´¼ĞŠ_E†Ç00A945A2FEDE3D35A7710BD99D54EBF93D23C771F,\SystemRoot\system32\DRIVERS\bthpan.sys
-fffff8a000241930,2d241930,2ca57930,0b000000000000000000000000001001000001100100110000,Z™Ş’?ã£×£ğßÏúü1ñP`ˆk=€áw‡6ƒçJ€å‹X‡ïëÂKO,\SystemRoot\System32\Drivers\dump_diskdump.sys
-fffff8a000296fb0,2d296fb0,2b739fb0,0b000000000000000000000000001010010110111110110000,o=WnosRbo mg rmBta atr"
-    li={F4465B-2,\SystemRoot\system32\DRIVERS\wfplwf.sys
-fffff8a000ef2490,27cf2490,2719f490,0b000000000000000000000000111011110010010010010000,U10U
-ahntnRdodMcootCroain!McootTm-tm CaÜ,\SystemRoot\System32\DRIVERS\srvnet.sys
-fffff8a0002d5e30,2d2d5e30,2b689e30,0b000000000000000000000000001011010101111000110000,q',\SystemRoot\system32\DRIVERS\mrxsmb10.sys
-fffff8a000ef6a60,27cf6a60,271e3a60,0b000000000000000000000000111011110110101001100000,,\SystemRoot\system32\DRIVERS\bowser.sys
-fffff8a000ee6150,27ce6150,27392150,0b000000000000000000000000111011100110000101010000,Ë{¯»×^sv:—ˆi€ñsŞ¸wTEÒ½ãêåq(ª¡µ'Q6À{:7Ìxu¶"w÷e[VuF´¿,\SystemRoot\System32\drivers\mpsdrv.sys
-fffff8a00ba16b80,72616b80,6c8eeb80,0b000000000000000000001011101000010110101110000000,à{ ÿX{ ÿX{ ÿÈ{ ÿ,\SystemRoot\system32\DRIVERS\mrxsmb.sys
-fffff8a00ba16ab0,72616ab0,6c8eeab0,0b000000000000000000001011101000010110101010110000,Ø€ÿ,\SystemRoot\system32\drivers\peauth.sys
-fffff8a000ef2560,27cf2560,2719f560,0b000000000000000000000000111011110010010101100000,¾ç.FÃC«ün0*H÷,\SystemRoot\System32\Drivers\secdrv.SYS
-fffff8a000296010,2d296010,2b739010,0b000000000000000000000000001010010110000000010000,Ô,\SystemRoot\system32\DRIVERS\hidusb.sys
-fffff8a000234530,2d234530,2cd66530,0b000000000000000000000000001000110100010100110000,ğø,\SystemRoot\System32\Drivers\Null.SYS
-fffff8a00022b350,2d22b350,2c99d350,0b000000000000000000000000001000101011001101010000,“,\SystemRoot\system32\drivers\spsys.sys
-fffff8a000239be0,2d239be0,2cdffbe0,0b000000000000000000000000001000111001101111100000,HŒ,\SystemRoot\system32\DRIVERS\intelppm.sys
-fffff8a0002ab490,2d2ab490,2b683490,0b000000000000000000000000001010101011010010010000,ê‹Hğÿ‹H…,\SystemRoot\system32\DRIVERS\CompositeBus.sys
-fffff8a0001cb340,31cb340,2b655340,0b000000000000000000000000000111001011001101000000,2,\SystemRoot\system32\DRIVERS\flpydisk.sys
-fffff8a000ecb630,27ccb630,275ea630,0b000000000000000000000000111011001011011000110000,Nr.õ¸0057ECB652D93F8515DFC435F033896D31E89C057,\SystemRoot\system32\DRIVERS\usbhub.sys
-fffff8a0002ab3b0,2d2ab3b0,2b6833b0,0b000000000000000000000000001010101011001110110000,‹H×‹èùÿ‹HÄ_ó3ëŒSWƒ@‹HD0,\SystemRoot\system32\DRIVERS\AgileVpn.sys
-fffff8a0002d56b0,2d2d56b0,2b6896b0,0b000000000000000000000000001011010101011010110000,:.(,\SystemRoot\system32\DRIVERS\rasl2tp.sys
-fffff8a000ecf340,27ccf340,2766e340,0b000000000000000000000000111011001111001101000000,"áüXá·’®YØü)2ÒËü2æ¸O\™•u¨·‘wõj}p}¯õpG¿/ç·¬‘|Öä~ÃåÒ,\SystemRoot\system32\DRIVERS\raspppoe.sys
-fffff8a000ed3970,27cd3970,27550970,0b000000000000000000000000111011010011100101110000,,\SystemRoot\system32\DRIVERS\ndistapi.sys
-fffff8a000ed3890,27cd3890,27550890,0b000000000000000000000000111011010011100010010000,,\SystemRoot\system32\DRIVERS\ndiswan.sys
-fffff8a00008c8a0,308c8a0,2b6f98a0,0b000000000000000000000000000010001100100010100000, °ğ,\SystemRoot\System32\Drivers\BTHUSB.sys
-fffff8a0064174c0,6d0174c0,6d5c94c0,0b000000000000000000000110010000010111010011000000,,h
-fffff8a00019b25,f0019b25,f000fb25,0b000000000000000000000000000000011001101100100101,,
-fffff8a00019b170,319b170,79627170,0b000000000000000000000000000110011011000101110000,HL@‹8l,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
-fffff8a00021fc80,2d21fc80,2d4bdc80,0b000000000000000000000000001000011111110010000000,À­,
-fffff8a0000d68d0,30d68d0,2d4e88d0,0b000000000000000000000000000011010110100011010000,ƒP‹MÈ+Hñ‹Dî‹	èDÃøÁÆFÿD³,
-fffff8a00019b1e0,319b1e0,796271e0,0b000000000000000000000000000110011011000111100000,,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
-fffff8a00019b010,319b010,79627010,0b000000000000000000000000000110011011000000010000,@ş
-:uè),ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
-fffff8a00019b100,319b100,79627100,0b000000000000000000000000000110011011000100000000,HÚ;uÆ,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
